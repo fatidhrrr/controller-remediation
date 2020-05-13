@@ -47,7 +47,7 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('show');
     }
 
     /**
@@ -58,7 +58,7 @@ class PostController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('edit');
     }
 
     /**
